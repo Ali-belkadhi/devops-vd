@@ -23,7 +23,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'master',
+                git branch: 'main',
                     url: 'https://github.com/Ali-belkadhi/devops-vd.git'
                 echo "✅ Code récupéré depuis GitHub"
             }
